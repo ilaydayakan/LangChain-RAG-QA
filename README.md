@@ -14,9 +14,9 @@ Bu proje, LangChain, HuggingFace Transformers ve Gradio kullanarak oluşturulmu�
 
 ## 📊 Değerlendirme Sonuçları
 evaluate_rag.py dosyası ile sistemin cevaplama başarımı ölçülmüştür. 5 örnek soruda sistemin performansı:
-Precision: 1.00
-Recall   : 0.60
-F1 Score : 0.75
+- Precision: 1.00
+- Recall   : 0.60
+- F1 Score : 0.75
 
 
 ## 🧩 Ana Dosyalar

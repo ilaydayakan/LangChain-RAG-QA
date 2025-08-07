@@ -21,13 +21,13 @@ evaluate_rag.py dosyası ile sistemin cevaplama başarımı ölçülmüştür. 5
 
 ## 🧩 Ana Dosyalar
 
-- langchain_rag_api/
-├── gradio_app.py           # Arayüz ve kullanıcı etkileşimi
-├── rag.py                  # RAG zinciri tanımı
-├── evaluate_rag.py         # Sistem değerlendirme metrikleri
-├── my_document.txt         # Kullanılan metin örneği
-├── README.md
-├── requirements.txt
+langchain_rag_api/
+├── gradio_app.py         # Gradio arayüzü
+├── rag.py                # RAG zinciri tanımı
+├── evaluate_rag.py       # QA doğruluk değerlendirmesi
+├── my_document.txt       # Örnek metin dosyası
+├── requirements.txt      # Gereksinimler
+└── README.md             # Bu döküman
 
 
 ## 📎 Notlar

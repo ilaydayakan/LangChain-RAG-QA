@@ -21,13 +21,18 @@ evaluate_rag.py dosyası ile sistemin cevaplama başarımı ölçülmüştür. 5
 
 ## 🧩 Ana Dosyalar
 
-langchain_rag_api/
-├── - `gradio_app.py`         # Gradio arayüzü
-├── - `rag.py`                # RAG zinciri tanımı
-├── - `evaluate_rag.py`       # QA doğruluk değerlendirmesi
-├── - `my_document.txt`       # Örnek metin dosyası
-├── - `requirements.txt`      # Gereksinimler
-└── - `README.md`             # Bu döküman
+- `rag.py`: Belge yükleme, chunklama, embedding oluşturma ve QA işlemlerini gerçekleştiren ana dosya.
+
+- `gradio_app.py`: Gradio tabanlı kullanıcı arayüzünü sağlayan uygulama arayüzü.
+
+- `evaluate_rag.py`: QA sisteminin doğruluğunu değerlendiren metrikleri hesaplayan dosya.
+
+- `my_document.txt`: Test amaçlı kullanılan örnek metin belgesi.
+
+- `requirements.txt`: Projede gerekli olan tüm kütüphane ve paketleri listeleyen dosya.
+
+- `README.md`: Projenin genel açıklamasını, kullanım yönergelerini ve kurulum adımlarını içeren dökümantasyon.
+
 
 
 ## 📎 Notlar
